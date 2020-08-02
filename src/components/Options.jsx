@@ -25,7 +25,8 @@ export const Options = ({search, onSelect}) => {
           borderRadius: 10,
           color: "white",
           padding: "5px 5px 5px 5px",
-          margin: "10px 10px 10px 10px"
+          margin: "10px 10px 10px 10px",
+          cursor: "pointer"
           }}
           key={`${element.data.name}`}
           onClick={() => onSelect(element)}>
